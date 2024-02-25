@@ -31,7 +31,7 @@
 					<li><a href="http://codyhouse.co/?p=748">About Us</a></li>
 					<li><a href="http://codyhouse.co/?p=748">Contact</a></li>
 					<li><a href="http://codyhouse.co/?p=748">Privacy Policies</a></li>
-					<li><a href="http://codyhouse.co/?p=748">Login / Sign-up</a></li>
+					<li><a href="http://codyhouse.co/?p=748">Logout</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -44,7 +44,6 @@
 
 		<section class="destination_acquire">
 			<div class="destination1">
-				
 			</div>
 		</section>
 	</main>
