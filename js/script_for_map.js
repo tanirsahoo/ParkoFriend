@@ -1,3 +1,11 @@
+function onLocationFound(e) {
+    var radius = e.accuracy / 2;
+    L.marker(e.latlng , {icon: redIcon}).addTo(map)
+      .bindPopup("You are within " + radius + " meters from this point").openPopup();
+    // L.circle(e.latlng, radius).addTo(map);
+    alert("Your Current Location is: " + e.latlng) ;
+  }
+
 var map = L.map('map').setView([22.5331, 88.3336], 11);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
