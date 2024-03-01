@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Parking App README</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Welcome to the Online Parking Platform!</h1>
+	        <img src="img/morales (1).jpg" alt="Logo">
     </header>
 
     <section id="workers">
         <h2>The Workers</h2>
         <p>Introducing the team behind the project:</p>
         <ul>
-	    <li>Tanir Sahoo</li>
             <li>Sreshtha Das</li>
+            <li>Tanir Sahoo</li>
             <li>Manash Das</li>
         </ul>
     </section>
@@ -31,7 +32,7 @@ This approach not only enhances customer satisfaction but also reflects positive
 By promoting efficient use of parking spaces and reducing unnecessary traffic congestion, our platform contributes to a greener, more sustainable future for urban environments.
 In essence, our online parking system is more than just a service – it's a commitment to empowering individuals, optimizing resources, and simplifying the urban experience.
 </p>
-       
+        <img src="C:\Users\souvi\Downloads\Three locations found near Kalighat Temple_resized_resized.jpg"alt="Project Image">
     </section>
 
     <section id="languages">
@@ -49,7 +50,7 @@ In essence, our online parking system is more than just a service – it's a com
         <h2>Deployed On</h2>
         <p>The project is deployed on GitHub:</p>
         <a href="https://github.com/tanirsahoo/ParkoFriend">Click Here</a>
-
+            <img src="img/github_resized_resized (1).png" alt="GitHub Logo">
        
     </section>
 
