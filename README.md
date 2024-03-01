@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>Welcome to the Online Parking Platform!</h1>
-	        <img src="img/morales (1).jpg" alt="Logo">
+	        <img src="img/morales (1) (1).jpg" alt="Logo">
     </header>
 
 <section>
