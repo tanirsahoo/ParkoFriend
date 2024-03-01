@@ -24,6 +24,7 @@
 
 <section>
         <h2> About the Project </h2>
+	<img src="img/morales (1) (1).jpg" alt="Logo">
         <p> We understand the frustrations of searching for parking spaces in crowded urban areas or at busy events, which is why we've crafted a solution that empowers users to effortlessly find, reserve, and manage parking spots with just a few clicks.
 Driven by innovation, we provide real-time availability updates, ensuring that users can always locate parking options tailored to their specific needs. Whether it's a short-term spot  or a long-term reservation for an extended stay, our system accommodates various requirements to streamline the parking process for everyone involved.
 For establishments lacking their own parking facilities, this app will provide a convenient solution by allowing them to reserve parking slots in advance. By pre-booking parking spaces, malls and restaurants can effectively reduce chaos during peak hours, ensuring a seamless experience for their customers. 
