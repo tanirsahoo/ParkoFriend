@@ -32,7 +32,7 @@ This approach not only enhances customer satisfaction but also reflects positive
 By promoting efficient use of parking spaces and reducing unnecessary traffic congestion, our platform contributes to a greener, more sustainable future for urban environments.
 In essence, our online parking system is more than just a service – it's a commitment to empowering individuals, optimizing resources, and simplifying the urban experience.
 </p>
-        <img src="C:\Users\souvi\Downloads\Three locations found near Kalighat Temple_resized_resized.jpg"alt="Project Image">
+        
     </section>
 
     <section id="languages">
