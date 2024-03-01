@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parking App README</title>
+    <title></title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body bgcolor="green">
+<body>
     <header>
-        <h1>Welcome to the Online Parking Platform!</h1>
+        <h1>Welcome to the Online Parking Slot Booking Platform!</h1>
 	        <img src="img/morales (1) (1).jpg" alt="Logo">
     </header>
 
