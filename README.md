@@ -63,10 +63,12 @@ In essence, our online parking system is more than just a service – it's a com
 
  <section>
         <h2>Steps for New Users</h2>
-        <p> In the Online Parking System app customer initiates registration by providing details such as customer id, phone number, address, password, car number, and name.</p>
-	<p>Upon registration, an Account is created with attributes including account name, account id, and linked customer details.</p>
-	 <p>The Customer can search for available Parking Spaces, characterized by attributes such as capacity, status, space name, price, availability, and disabled.</p>
-	 <p>Upon selecting a Parking Space, the Customer can make a Booking, generating a booking id and capturing details like customer name, customer id, car details, booking status, arrival, and departure times. </p>
+	 <ol>
+        <li> In the Online Parking System app customer initiates registration by providing details such as customer id, phone number, address, password, car number, and name.</li>
+	<li>Upon registration, an Account is created with attributes including account name, account id, and linked customer details.</li>
+	 <li>The Customer can search for available Parking Spaces, characterized by attributes such as capacity, status, space name, price, availability, and disabled.</li>
+	 <li>Upon selecting a Parking Space, the Customer can make a Booking, generating a booking id and capturing details like customer name, customer id, car details, booking status, arrival, and departure times. </li>
+	 </ol>
     </section>
     <footer>
         <h2>LinkedIn Profiles</h2>
