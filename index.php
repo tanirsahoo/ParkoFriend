@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="style.css">
          
-    <title>Login & Registration Form</title> 
+    <title>ParkoFriend | Your friend to solve all parking problems.</title> 
 </head>
 <body>
     
@@ -16,7 +16,7 @@
             <div class="form login">
                 <span class="title">Login</span>
 
-                <form action="#">
+                <form action="index.php" method="POST">
                     <div class="input-field">
                         <input type="text" placeholder="Enter your email" required>
                         <i class="uil uil-envelope icon"></i>
