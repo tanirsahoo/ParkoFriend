@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style_for_index.css">
          
     <title>ParkoFriend | Your friend to solve all parking problems.</title> 
 </head>
@@ -92,6 +92,6 @@
         </div>
     </div>
 
-     <script src="script.js"></script> 
+     <script src="js/script.js"></script> 
 </body>
 </html>
