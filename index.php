@@ -1,3 +1,11 @@
+<?php
+// try {
+//     include "db_connect.php" ;
+//   } catch (Exception $e) {
+//     echo "Please try again" ;
+//   }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,6 +67,10 @@
                     </div>
                     <div class="input-field">
                         <input type="text" placeholder="Enter your email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your address" required>
                         <i class="uil uil-envelope icon"></i>
                     </div>
                     <div class="input-field">
