@@ -12,18 +12,22 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: #4070f4; */
-    background-image: url('img/wp3218458.jpg');
+    background: url('../img/wp3218458.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
+.background_image_setup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .container{
     position: relative;
     max-width: 430px;
     width: 100%;
-    background: #fff;
+    /* background: #003cff; */
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;

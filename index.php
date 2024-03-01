@@ -10,7 +10,7 @@
     <title>ParkoFriend | Your friend to solve all parking problems.</title> 
 </head>
 <body>
-    
+    <div class="background_image_setup" id="back_image_setup">
     <div class="container">
         <div class="forms">
             <div class="form login">
@@ -91,7 +91,7 @@
             </div>
         </div>
     </div>
-
+    </div>
      <script src="js/script.js"></script> 
 </body>
 </html>
