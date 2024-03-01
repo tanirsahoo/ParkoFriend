@@ -6,7 +6,7 @@
     <title>Parking App README</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body bgcolor="lightgreen">
+<body bgcolor="green">
     <header>
         <h1>Welcome to the Online Parking Platform!</h1>
 	        <img src="img/morales (1) (1).jpg" alt="Logo">
