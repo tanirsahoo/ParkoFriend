@@ -55,10 +55,12 @@ In essence, our online parking system is more than just a service – it's a com
 </section>
 
 <section>
+<ul>
         <h2>Third Party Apps</h2>
-        <p>The project utilizes Leaflet, an open-source mapping library, to display parking locations on a map.</p>
-        <p>Leaflet is a lightweight library that provides an easy-to-use API for building interactive maps.</p>
-        <p>To use Leaflet, simply include the Leaflet JavaScript and CSS files in your project, and refer to the Leaflet documentation for usage instructions.</p>
+        <li>The project utilizes Leaflet, an open-source mapping library, to display parking locations on a map.</li>
+        <li>Leaflet is a lightweight library that provides an easy-to-use API for building interactive maps.</li>
+        <li>To use Leaflet, simply include the Leaflet JavaScript and CSS files in your project, and refer to the Leaflet documentation for usage instructions.</li>
+</ul>
     </section>
 
  <section>
