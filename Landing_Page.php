@@ -1,4 +1,4 @@
-<!-- <!doctype html>
+<!doctype html>
 <html lang="en" class="no-js">
 <head>
 	<meta charset="UTF-8">
@@ -62,11 +62,11 @@
 <script src="js/main.js"></script>
 <script src="js/script_for_map.js"></script>
 </body>
-</html> -->
+</html>
 
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -117,4 +117,4 @@
     </script>
 	<script src="js/script_for_map.js"></script>
 </body>
-</html>
+</html> -->
