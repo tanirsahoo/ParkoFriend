@@ -97,7 +97,7 @@
         <li>Item 5</li>
     </ul>
 
-    <!-- <script>
+    <script>
         function searchFunction() {
             let input, filter, ul, li, txtValue;
             input = document.getElementById('searchInput');
@@ -114,7 +114,7 @@
                 }
             }
         }
-    </script> -->
+    </script>
 	<script src="js/script_for_map.js"></script>
 </body>
 </html>
