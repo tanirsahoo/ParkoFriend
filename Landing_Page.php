@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en" class="no-js">
 <head>
 	<meta charset="UTF-8">
@@ -42,6 +42,12 @@
 			<div id="map"></div>
 		</section>
 
+		<section class="search_bar" id="search_item">
+			<div class="search_bar_inside">
+
+			</div>
+		</section>
+
 		<section class="destination_acquire">
 			<div class="destination1">
 			</div>
@@ -55,5 +61,60 @@
 <script src="js/jquery.menu-aim.js"></script>
 <script src="js/main.js"></script>
 <script src="js/script_for_map.js"></script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Item Search</title>
+<style>
+    /* Style the search bar */
+    /* input[type="text"] {
+        padding: 5px;
+        width: 200px;
+        font-size: 16px;
+    } */
+	.Location_Search{
+		padding: 5px;
+        width: 200px;
+        font-size: 16px;
+	}
+</style>
+</head>
+<body>
+    <h2>Search for Items:</h2>
+    <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search for items..." class="Location_Search">
+    <ul id="itemList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <!-- <script>
+        function searchFunction() {
+            let input, filter, ul, li, txtValue;
+            input = document.getElementById('searchInput');
+            filter = input.value.toUpperCase();
+            ul = document.getElementById('itemList');
+            li = ul.getElementsByTagName('li');
+
+            for (let i = 0; i < li.length; i++) {
+                txtValue = li[i].textContent || li[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = '';
+                } else {
+                    li[i].style.display = 'none';
+                }
+            }
+        }
+    </script> -->
+	<script src="js/script_for_map.js"></script>
 </body>
 </html>
