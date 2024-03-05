@@ -11,6 +11,7 @@
     <script src="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/new2.css">
     <link rel="stylesheet" href="css/style_map.css">
     <script src="js/modernizr.js"></script>
 
