@@ -38,6 +38,15 @@
                 </ul>
             </nav>
         </div>
+        <div class="dropdown-menu" id="profile-dropdown" style="right: 20px;">
+            <ul>
+                <li>Name</li>
+                <li>Credit Points</li>
+                <li>No of Bookings</li>
+                <li>Active Bookings</li>
+                <li>Update Profile</li>
+            </ul>
+        </div>
     </header>
 
     <main class="cd-main-content">
@@ -65,22 +74,22 @@
         </section>
     </main>
     <script>
-        function searchFunction() {
-            let input, filter, ul, li, txtValue;
-            input = document.getElementById('searchInput');
-            filter = input.value.toUpperCase();
-            ul = document.getElementById('itemList');
-            li = ul.getElementsByTagName('li');
+    function searchFunction() {
+        let input, filter, ul, li, txtValue;
+        input = document.getElementById('searchInput');
+        filter = input.value.toUpperCase();
+        ul = document.getElementById('itemList');
+        li = ul.getElementsByTagName('li');
 
-            for (let i = 0; i < li.length; i++) {
-                txtValue = li[i].textContent || li[i].innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    li[i].style.display = '';
-                } else {
-                    li[i].style.display = 'none';
-                }
+        for (let i = 0; i < li.length; i++) {
+            txtValue = li[i].textContent || li[i].innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = '';
+            } else {
+                li[i].style.display = 'none';
             }
         }
+    }
     </script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
