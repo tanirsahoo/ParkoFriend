@@ -27,9 +27,9 @@ var redIcon = new L.Icon({
 
 let j = 0 ;
 latitudes.forEach(element => {
-    marker.push(L.marker([element , longitudes[j ++]], {icon: redIcon}).addTo(map)) ;
+    marker.push(L.marker([element , longitudes[j]], {icon: redIcon}).addTo(map).bindPopup(`<a href="booking_page.php?id='${j}'" style="font-size: 1rem ;">Click here to book your slot.</a>`)) ;
+    j ++ ;
 });
-
 
 
 
