@@ -39,25 +39,25 @@ latitudes.forEach(element => {
 
 
 
-let search_click = document.getElementById('searchInput');
-search_click.addEventListener('Click' , () =>{
-     let item_feed = document.getElementById('itemList') ;
-     item_feed.innerHTML = `<li>Item 1</li>
-     <li>Item 2</li>
-     <li>Item 3</li>
-     <li>Item 4</li>
-     <li>Item 5</li>` ;
-     console.log("Search Bar Clicked.!") ;
-}) ;
+// let search_click = document.getElementById('searchInput');
+// search_click.addEventListener('Click' , () =>{
+//      let item_feed = document.getElementById('itemList') ;
+//      item_feed.innerHTML = `<li>Item 1</li>
+//      <li>Item 2</li>
+//      <li>Item 3</li>
+//      <li>Item 4</li>
+//      <li>Item 5</li>` ;
+//      console.log("Search Bar Clicked.!") ;
+// }) ;
 
-let onClickOutside = (element, callback) => {
-    document.addEventListener('click', e => {
-      if (!element.contains(e.target)) callback();
-    });
-  };
+// let onClickOutside = (element, callback) => {
+//     document.addEventListener('click', e => {
+//       if (!element.contains(e.target)) callback();
+//     });
+//   };
   
-  onClickOutside('searchInput', () => {
-    let item_feed = document.getElementById('itemList') ;
-    item_feed.innerHTML = `` ;
-    console.log("Outside Search Bar Clicked.!") ;
-  });
+//   onClickOutside('searchInput', () => {
+//     let item_feed = document.getElementById('itemList') ;
+//     item_feed.innerHTML = `` ;
+//     console.log("Outside Search Bar Clicked.!") ;
+//   });

@@ -54,16 +54,16 @@
             <div id="map"></div>
         </section>
 
-        <section class="search_bar" id="search_item">
+        <!-- <section class="search_bar" id="search_item">
             <div class="search_bar_inside">
                 <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search for items..."
                     class="Location_Search">
                 <ul id="itemList">
-                    <!-- <li>Item 1</li>
+                    <li>Item 1</li>
                     <li>Item 2</li>
                     <li>Item 3</li>
                     <li>Item 4</li>
-                    <li>Item 5</li> -->
+                    <li>Item 5</li>
                 </ul>
             </div>
         </section>
@@ -71,9 +71,9 @@
         <section class="destination_acquire">
             <div class="destination1">
             </div>
-        </section>
+        </section> -->
     </main>
-    <script>
+    <!-- <script>
     function searchFunction() {
         let input, filter, ul, li, txtValue;
         input = document.getElementById('searchInput');
@@ -90,7 +90,7 @@
             }
         }
     }
-    </script>
+    </script> -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
