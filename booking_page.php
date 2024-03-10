@@ -1,7 +1,8 @@
 <?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    echo "POST Request received succesfully.\n" ;
+if (isset($_GET['id'])) {
+    echo "GET Request received succesfully.\n" ;
+    echo $_GET['id'] ;
 } else {
-    echo "POST Request Failed.\n" ;
+    echo "GET Request Failed.\n" ;
 }
 ?>
