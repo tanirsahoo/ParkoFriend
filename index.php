@@ -1,9 +1,5 @@
 <?php
-// try {
-//     include "db_connect.php" ;
-//   } catch (Exception $e) {
-//     echo "Please try again" ;
-//   }
+header('location: Landing_Page.php') ;
 ?>
 
 <!DOCTYPE html>
